@@ -21,7 +21,7 @@
 	</head>
 	
 <!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
-	<body style = "backgroundimage: url("myfon.jpg"); background-size: cover;">
+	<body style = "background-image: url("myfon.jpg"); background-size: cover;">
 
 <!-- меню (navigation bar) -->
 
@@ -86,6 +86,7 @@
 			<div class="container">
 
 <!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
+				<div class = "row justify-content-center">
 				<div class="col-md-12">
 
 <!-- <article> не влияет на оформление, но помогает структурировать контент на осмысленые разделы -->
@@ -106,7 +107,7 @@
 		   padding: 5px 12px;
 		   border: 3px solid #0b6623;">
   Место учебы</h3>
-						<p>Фундаментальная и прикладная лингвистика, НИУ ВШЭ, Москва</p>
+						<p>ФиКЛ, НИУ ВШЭ, Москва</p>
 					</article>
 					<article style = "
   background: rgba(255, 255, 255, 0.15);
@@ -146,7 +147,8 @@
 						<p>Гимназия №26</p>
 					</article>
 				</div>
-
+				</div>
+				<div class = "row justify-content-center">
 				<div class="col-md-12">
 					<article style = "
   background: rgba(255, 255, 255, 0.15);
@@ -201,6 +203,7 @@
 						</p>
 					</article>
 				</div>
+				</div>
 <article style = "
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(12px) saturate(150%);
@@ -210,6 +213,7 @@
   padding: 20px 30px;
   display: inline-block;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.5);">
+	<div class = "row justify-content-center">
 				<div class="col-md-12">
 					<h3 style="font-family: 'Franklin Gothic Heavy', 'Arial Black', sans-serif;
            font-style: italic;
@@ -225,6 +229,7 @@
 						<li><a href="t.me/fk_mori">Telegram</a></li>
 					</ul>
 				</div>
+	</div>
 </article>
 			</div>
 		</section>
